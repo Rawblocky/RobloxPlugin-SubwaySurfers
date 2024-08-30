@@ -1,6 +1,9 @@
+**Roblox Marketplace:** https://create.roblox.com/store/asset/72335137412483
+
 # Subway Surfers for Roblox Studio
 
 Can't focus on your work? Well, no worries, Subway Surfers for Roblox Studio has your back!
+This plugin adds a widget on your screen that contains Subway Surfers gameplay! Clicking on the display will change the scaling type of the display.
 
 # Building
 

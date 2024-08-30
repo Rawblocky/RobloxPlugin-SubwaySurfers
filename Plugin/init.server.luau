@@ -17,15 +17,15 @@ local spriteSheets = {
 	"rbxassetid://127654379341229",
 	"rbxassetid://79652421170538",
 	"rbxassetid://139900244308816",
-	"rbxassetid://79855827411890",
-	"rbxassetid://82639266368787",
+	"rbxassetid://91374783271321",
+	"rbxassetid://125972508282020",
 	"rbxassetid://114698596607716",
 	"rbxassetid://121821204835243",
 	"rbxassetid://77586120923428",
 	"rbxassetid://93155589577048",
-	"rbxassetid://89323672158618",
+	"rbxassetid://106656168492821",
 	"rbxassetid://115069371932988",
-	"rbxassetid://72457960637747",
+	"rbxassetid://125229681126604",
 }
 local framesPerSec = 4
 local playbackSpeed = 2
@@ -55,7 +55,7 @@ local widgetInfo = DockWidgetPluginGuiInfo.new(
 -- <-
 
 local toolbar = plugin:CreateToolbar("Subway Surfers")
-local button = toolbar:CreateButton("Subway Surfers", "Subway Surfers", "rbxassetid://75562186090130")
+local button = toolbar:CreateButton("Subway Surfers", "Subway Surfers", "rbxassetid://90302369520844")
 button.ClickableWhenViewportHidden = true
 
 local pluginGui = plugin:CreateDockWidgetPluginGui(pluginGuiId, widgetInfo)
