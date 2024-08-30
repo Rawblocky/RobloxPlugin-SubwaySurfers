@@ -1,0 +1,6 @@
+std = "roblox"
+
+[rules]
+unused_variable = "allow"
+deprecated = "allow"
+selene::manual_table_clone = "allow"
