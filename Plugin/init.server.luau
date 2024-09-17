@@ -6,6 +6,7 @@
 --> SERVICES
 -- ==========================
 local HttpService = game:GetService("HttpService")
+local RunService = game:GetService("RunService")
 -- <-
 
 -- ==========================
@@ -44,7 +45,7 @@ local scaleType = {
 local defaultSize = Vector2.new(100, 190) * 2
 local minimumSize = Vector2.new(100, 190)
 local widgetInfo = DockWidgetPluginGuiInfo.new(
-	Enum.InitialDockState.Float,
+	RunService:IsEdit() and Enum.InitialDockState.Float or Enum.InitialDockState.Left,
 	true,
 	false,
 	defaultSize.X,
